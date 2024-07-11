@@ -1,7 +1,7 @@
 # Dockerfile for build up the image
 FROM ubuntu:latest
 
-LABEL MAINTAINER https://github.com/Nriver/trilium-translation
+LABEL MAINTAINER https://github.com/aircross/trilium-cn
 
 # 添加curl jq命令给health check使用
 # 合并RUN减少镜像层数

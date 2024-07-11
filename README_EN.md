@@ -1,10 +1,10 @@
 # 🌏 Trilium Translation
 
-[![Github all releases](https://img.shields.io/github/downloads/nriver/trilium-translation/total.svg)](https://GitHub.com/nriver/trilium-translation/releases/)
-[![GitHub license](https://badgen.net/github/license/nriver/trilium-translation)](https://github.com/nriver/trilium-translation/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/nriver/trilium-translation/graphs/commit-activity)
-[![GitHub release](https://img.shields.io/github/v/release/nriver/trilium-translation.svg)](https://github.com/nriver/trilium-translation/releases/)
-[![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://hub.docker.com/repository/docker/nriver/trilium-cn/general)
+[![Github all releases](https://img.shields.io/github/downloads/aircross/trilium-cn/total.svg)](https://GitHub.com/aircross/trilium-cn/releases/)
+[![GitHub license](https://badgen.net/github/license/aircross/trilium-cn)](https://github.com/aircross/trilium-cn/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/aircross/trilium-cn/graphs/commit-activity)
+[![GitHub release](https://img.shields.io/github/v/release/aircross/trilium-cn.svg)](https://github.com/aircross/trilium-cn/releases/)
+[![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://hub.docker.com/repository/docker/aircross/trilium-cn/general)
 
 <p align="center">
 English | <a href="README_CN.md">简体中文</a>
@@ -12,7 +12,7 @@ English | <a href="README_CN.md">简体中文</a>
 
 This repo provides a translation for the awesome [Trilium Notes](https://github.com/zadam/trilium).
 If you'd like to translate Trilium Notes into any language you like, please
-follow [this guide](https://github.com/Nriver/trilium-translation#how-to-translate).
+follow [this guide](https://github.com/aircross/trilium-cn#how-to-translate).
 Currently, I have translated Trilium Notes into Chinese. The translation will keep update to the latest Trilium Notes'
 stable releases.
 
@@ -24,31 +24,31 @@ If you have old data, PLEASE BACK UP YOUR DATA BEFORE USE.
 
 <!--ts-->
 
-* [🌏 Trilium Translation](#-trilium-translation)
-* [🦮 Table of Contents](#-table-of-contents)
-* [📸 Screenshots](#-screenshots)
-* [📚 How to use](#-how-to-use)
-* [🐳 How to run server with docker](#-how-to-run-server-with-docker)
-* [🌐 How to translate](#-how-to-translate)
-    * [🌐 How does the translation work](#-how-does-the-translation-work)
-        * [💻 Compile Environment Requirement](#-compile-environment-requirement)
-        * [🔍 Translate Process](#-translate-process)
-        * [📝 More text to translate](#-more-text-to-translate)
-* [🛑 Limitations](#-limitations)
-* [🤔 Common questions](#-common-questions)
-    * [Which VPS provider are you using to run the Trilium Notes server?](#which-vps-provider-are-you-using-to-run-the-trilium-notes-server)
-    * [Some Questions Regarding Domain Names](#some-questions-regarding-domain-names)
-        * [How to Enable HTTPS Encryption?](#how-to-enable-https-encryption)
-        * [Where Did You Purchase Your Domain?](#where-did-you-purchase-your-domain)
-        * [How to Apply for a Website Certificate?](#how-to-apply-for-a-website-certificate)
-    * [Why my translation is not working?](#why-my-translation-is-not-working)
-    * [Where is the Note Database?](#where-is-the-note-database)
-        * [Default Paths for Client Databases](#default-paths-for-client-databases)
-        * [Default Path for Server Database](#default-path-for-server-database)
-    * [How to Change the Database Location?](#how-to-change-the-database-location)
-* [⏳ Stargazers over time](#-stargazers-over-time)
-* [💰 Donation](#-donation)
-* [🙏 Thanks](#-thanks)
+- [🌏 Trilium Translation](#-trilium-translation)
+- [🦮 Table of Contents](#-table-of-contents)
+- [📸 Screenshots](#-screenshots)
+- [📚 How to use](#-how-to-use)
+- [🐳 How to run server with docker](#-how-to-run-server-with-docker)
+- [🌐 How to translate](#-how-to-translate)
+  - [🌐 How does the translation work](#-how-does-the-translation-work)
+    - [💻 Compile Environment Requirement](#-compile-environment-requirement)
+    - [🔍 Translate Process](#-translate-process)
+    - [📝 More text to translate](#-more-text-to-translate)
+- [🛑 Limitations](#-limitations)
+- [🤔 Common questions](#-common-questions)
+  - [Which VPS provider are you using to run the Trilium Notes server?](#which-vps-provider-are-you-using-to-run-the-trilium-notes-server)
+  - [Some Questions Regarding Domain Names](#some-questions-regarding-domain-names)
+    - [How to Enable HTTPS Encryption?](#how-to-enable-https-encryption)
+    - [Where Did You Purchase Your Domain?](#where-did-you-purchase-your-domain)
+    - [How to Apply for a Website Certificate?](#how-to-apply-for-a-website-certificate)
+  - [Why my translation is not working?](#why-my-translation-is-not-working)
+  - [Where is the Note Database?](#where-is-the-note-database)
+    - [Default Paths for Client Databases](#default-paths-for-client-databases)
+    - [Default Path for Server Database](#default-path-for-server-database)
+  - [How to Change the Database Location?](#how-to-change-the-database-location)
+- [⏳ Stargazers over time](#-stargazers-over-time)
+- [💰 Donation](#-donation)
+- [🙏 Thanks](#-thanks)
 
 <!--te-->
 
@@ -80,7 +80,7 @@ Math formular
 
 # 📚 How to use
 
-1. Download from the latest [Release](https://github.com/Nriver/trilium-translation/releases) that suit your computer
+1. Download from the latest [Release](https://github.com/aircross/trilium-cn/releases) that suit your computer
    system.
 2. Unzip and execute(trilium for Linux, trilium.sh for Linux server, trilium.exe for Windows, trilium.app for macOS).
 3. Enjoy :)
@@ -88,7 +88,7 @@ Math formular
 # 🐳 How to run server with docker
 
 For Trilium Notes server, you can download
-my [docker-compose.yml](https://github.com/Nriver/trilium-translation/blob/main/docker-compose.yml)
+my [docker-compose.yml](https://github.com/aircross/trilium-cn/blob/main/docker-compose.yml)
 Then run it with docker simply by executing:
 
 ```
@@ -96,7 +96,7 @@ docker-compose up -d
 ```
 
 It will download the Chinese version of Trilium I built
-on [Docker Hub](https://hub.docker.com/repository/docker/nriver/trilium-cn).
+on [Docker Hub](https://hub.docker.com/repository/docker/aircross/trilium-cn).
 
 Open http://127.0.0.1:8080 in your browser to access the server page.
 
@@ -208,9 +208,9 @@ conjunction with the domain.
 
 I purchased my domain from Namesilo, and the prices are quite reasonable. Feel free to give it a try if you're
 interested. Below is the link with an affiliate tag; you can remove it if you prefer. Additionally, there is a coupon
-code `nriver` that can save you $1 on your first domain purchase.
+code `oneoff` that can save you $1 on your first domain purchase.
 
-[Domain Purchase Link](https://www.namesilo.com/?rid=d62cb16lq)
+[Domain Purchase Link](https://www.namesilo.com/?rid=da02f66fx)
 
 ### How to Apply for a Website Certificate?
 
@@ -253,7 +253,7 @@ If you want to experience the latest original features, it is recommended to use
 
 Generated by [caarlos0/starcharts](https://github.com/caarlos0/starcharts).
 
-[![Stargazers over time](https://starchart.cc/Nriver/trilium-translation.svg)](https://starchart.cc/Nriver/trilium-translation)
+[![Stargazers over time](https://starchart.cc/aircross/trilium-cn.svg)](https://starchart.cc/aircross/trilium-cn)
 
 ---
 

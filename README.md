@@ -10,29 +10,14 @@
 简体中文 | <a href="README_EN.md">English</a>
 </p>
 
-我把这个牛逼的笔记软件[Trilium Notes](https://github.com/zadam/trilium)做了中文翻译. 翻译会持续跟进Trilium Notes的稳定版.
+[Nriver](https://github.com/Nriver/trilium-translation)把这个牛逼的笔记软件[Trilium Notes](https://github.com/zadam/trilium)做了中文翻译. 翻译会持续跟进Trilium Notes的稳定版.
 
-如果你想把Trilium翻译成其它语言，可以参考[这里](https://github.com/aircross/trilium-cn/blob/main/README.md#%E5%A4%AA%E9%95%BF-%E5%88%AB%E7%9C%8B-%E8%87%AA%E5%B7%B1%E7%BC%96%E8%AF%91)
+如果你想把Trilium翻译成其它语言，可以参考[这里](https://github.com/aircross/trilium-cn?tab=readme-ov-file#-%E5%A4%AA%E9%95%BF-%E5%88%AB%E7%9C%8B-%E8%87%AA%E5%B7%B1%E7%BC%96%E8%AF%91)
 
 如果你觉得不错, 可以留下一个star, 谢谢 ^_^
 
 如果你是老用户, 使用前最好备份数据以防万一.
 
-qq群满了请优先加TG群
-
-Trilium Notes 学习交流 TG群 https://t.me/trilium_cn
-
-![tg](https://user-images.githubusercontent.com/6752679/224602865-44bf8e9c-f31b-4d4c-b22c-2fdf349e8d5e.png)
-
-Trilium Notes 交流qq群
-
-1群 686232370 (已满)
-
-<!-- ![qq2](https://user-images.githubusercontent.com/6752679/125550117-ec2a118c-8628-46e4-99f4-7f7e12ba7ba6.png) -->
-
-2群 535368955
-
-![qq2](https://user-images.githubusercontent.com/6752679/224601193-f1d9eead-731a-4468-8a94-cd954e88efe9.png)
 
 # 🔔 声明
 
@@ -258,9 +243,6 @@ systemctl start trilium-server-cn
 
 ### 关于Arm服务器运行服务端的说明
 
-~~如果需要在Arm服务器上跑, 可以直接用trilium原版的docker镜像. 汉化版和原版数据是互通的. 可以用汉化版的客户端和原版的服务端进行链接.~~
-
-~~汉化版暂时不会有Arm镜像. [相关issue](https://github.com/Nriver/trilium-translation/issues/10)~~
 
 汉化版已经有Arm版的docker镜像了，可以放心食用。如果无法运行，请尝试升级docker版本。
 

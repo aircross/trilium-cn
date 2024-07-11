@@ -45,6 +45,8 @@ Archlinux AUR 仓库 服务端 https://aur.archlinux.org/packages/trilium-server
 - [📖 使用方法 - Windows, Linux, MacOS 直接使用Release打包的文件](#-使用方法---windows-linux-macos-直接使用release打包的文件)
 - [🖥️ 服务端](#️-服务端)
   - [🐳 服务端 - Linux - 在Docker里运行服务端](#-服务端---linux---在docker里运行服务端)
+    - [方式一：](#方式一)
+    - [方式二：](#方式二)
     - [🔝 Docker服务端版本更新](#-docker服务端版本更新)
   - [服务端 - Linux - 通过AUR安装Linux服务端](#服务端---linux---通过aur安装linux服务端)
     - [关于Arm服务器运行服务端的说明](#关于arm服务器运行服务端的说明)
@@ -128,27 +130,27 @@ Archlinux AUR 仓库 服务端 https://aur.archlinux.org/packages/trilium-server
 
 原版的黑暗主题
 
-![dark](docs/screenshot_theme_dark.png)
+![dark](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/screenshot_theme_dark.png?raw=true)
 
 原版的明亮主题
 
-![light](docs/screenshot_theme_light.png)
+![light](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/screenshot_theme_light.png?raw=true)
 
 我做的Nier主题 :)
 
-![nier](docs/screenshot_theme_nier.png)
+![nier](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/screenshot_theme_nier.png?raw=true)
 
 Excalidraw 画布笔记
 
-![am3](docs/excalidraw_demo_am3.gif)
+![am3](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/excalidraw_demo_am3.gif?raw=true)
 
 Mermaid.js 流程图
 
-![am3](docs/screenshot_mermaid_diagram.png)
+![am3](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/screenshot_mermaid_diagram.png?raw=true)
 
 数学公式
 
-![nier](docs/screenshot_math_formular.png)
+![nier](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/screenshot_math_formular.png?raw=true)
 
 # 📖 使用方法 - Windows, Linux, MacOS 直接使用Release打包的文件
 
@@ -178,6 +180,15 @@ Trilium Notes的服务端可以用我构建好的docker镜像运行.
    来代替`docker compose`。
 
 运行步骤：
+
+### 方式一：
+直接在已经安装好Dokcer的服务器运行以下命令即可
+```shell
+mkdir -p /opt/docker/trilium-cn
+docker run --name trilium-cn -p 8080:8080 --restart=unless-stopped -v /opt/docker/trilium-cn:/root/trilium-data -e TRILIUM_DATA_DIR=/root/trilium-data -d aircross/trilium-cn
+```
+
+### 方式二：
 
 直接下载 [docker-compose.yml](https://raw.githubusercontent.com/aircross/trilium-cn/main/docker-compose.yml)
 
@@ -509,7 +520,7 @@ update notes set `type` = 'canvas' where noteId = '你的笔记ID'
 设置可以参考[Bandizip的官方文档](https://cn.bandisoft.com/bandizip/help/utf8/). 在Bandizip的 `选项-设置-压缩设置`
 里勾上 `在Zip文件中使用Unicode文件名(UTF-8)`的选项即可.
 
-[这里](docs/中文测试.zip)有个UTF-8格式的压缩包例子, 你可以导入试试, 中文文件名可以正常显示.
+[这里](https://ghproxy.org/https://github.com/Nriver/trilium-translation/blob/main/docs/中文测试.zip?raw=true)有个UTF-8格式的压缩包例子, 你可以导入试试, 中文文件名可以正常显示.
 
 ## Docker运行不起来怎么办？
 

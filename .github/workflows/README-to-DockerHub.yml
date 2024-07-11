@@ -1,10 +1,7 @@
 name: README-to-DockerHub
 
 on:
-  workflow_dispatch:
-  push:
-    paths:
-      - '*.md'
+  workflow_dispatch: #github页面手动触发
 
 jobs:
   build:

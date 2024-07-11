@@ -418,7 +418,7 @@ Trilium有自动备份功能，软件内可以左上角设置里可以设定自�
 
 ## Trilium有开放接口调用吗？
 
-有的，Trilium有叫做ETAPI的接口可供调用。我把接口用python进行了封装，有兴趣的可以移步到我的另一个项目[Trilium-py](https://github.com/Nriver/trilium-py)
+有的，Trilium有叫做ETAPI的接口可供调用。[Nriver](https://github.com/Nriver/trilium-py)把接口用python进行了封装，有兴趣的可以移步到我的另一个项目[Trilium-py](https://github.com/Nriver/trilium-py)
 查看。
 
 ## 配置反向代理之后部分功能不正常了?
